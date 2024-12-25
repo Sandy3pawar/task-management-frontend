@@ -2,7 +2,7 @@
   "version": "0.0.0",
 "scripts": {
   "ng": "ng",
-  "start": "ng build --configuration production && npx serve -s dist/task-management --single -l $PORT",
+ "start": "ng build --configuration production && npx serve dist --single -l $PORT",
   "build": "ng build",
   "watch": "ng build --watch --configuration development",
   "test": "ng test"
