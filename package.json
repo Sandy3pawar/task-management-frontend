@@ -1,3 +1,5 @@
+  "name": "task-management",
+  "version": "0.0.0",
 "scripts": {
   "ng": "ng",
   "start": "ng build --configuration production && npx serve -s dist/task-management --single -l $PORT",
